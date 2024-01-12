@@ -4,7 +4,7 @@ import sys
 import os
 
 FILENAME = "data_sales.csv"
-DATA_FOLDER = "../data/raw"
+DATA_FOLDER = "./Supply_Chain_Clustering_Forecasting/data/raw"
 filename = os.path.join(DATA_FOLDER, FILENAME)
 
 def load_data() -> pd.DataFrame:
