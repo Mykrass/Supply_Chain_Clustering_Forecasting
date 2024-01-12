@@ -4,8 +4,8 @@ import sys
 import os
 
 FILENAME_CLUSTERING = "data_sales.csv"
-DATA_FOLDER_RAW = "../data/raw"
-DATA_FOLDER_PROCESSED = "../data/processed"
+DATA_FOLDER_RAW = "./Supply_Chain_Clustering_Forecasting/data/raw"
+DATA_FOLDER_PROCESSED = "./Supply_Chain_Clustering_Forecasting/data/processed"
 filename = os.path.join(DATA_FOLDER_RAW, FILENAME_CLUSTERING)
 
 def load_data() -> pd.DataFrame:
