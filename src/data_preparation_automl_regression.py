@@ -5,12 +5,12 @@ import os
 
 
 # Raw data
-DATA_FOLDER_RAW = "../data/raw"
+DATA_FOLDER_RAW = "./Supply_Chain_Clustering_Forecasting/data/raw"
 FILENAME_RAW = "data_sales.csv"
 filename_raw = os.path.join(DATA_FOLDER_RAW, FILENAME_RAW)
 
 # Processed data
-DATA_FOLDER_PROCESSED = "../data/processed"
+DATA_FOLDER_PROCESSED = "./Supply_Chain_Clustering_Forecasting/data/processed"
 FILENAME_PROCESSED = "data_sales_processed.csv"
 filename_processed = os.path.join(DATA_FOLDER_PROCESSED, FILENAME_PROCESSED)
 
