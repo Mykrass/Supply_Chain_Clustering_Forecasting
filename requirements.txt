@@ -1,5 +1,2 @@
-# local package
--e .
-
 # external packages
 pycaret
