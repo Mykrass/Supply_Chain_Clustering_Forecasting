@@ -2,8 +2,4 @@
 -e .
 
 # external packages
-pandas
-matplotlib
-seaborn
 pycaret
-folium
